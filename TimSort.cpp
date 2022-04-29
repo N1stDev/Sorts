@@ -34,10 +34,10 @@ vector<int> merge(vector<int> first, vector<int> second) {
 	}
 
 	for (int i = f_i; i < first.size(); i++) {
-		res.push_back(first[f_i]);
+		res.push_back(first[i]);
 	}
 	for (int i = s_i; i < second.size(); i++) {
-		res.push_back(second[s_i]);
+		res.push_back(second[i]);
 	}
 
 	return res;
